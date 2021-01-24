@@ -1,0 +1,97 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+    background-color: hsl(0, 0%, 98%);
+    text-align: center;
+}
+
+h1{
+    margin-top: 1.5%;
+  font-weight: 200; 
+}
+h4{
+  font-weight: 200;
+  width: 40%;
+ margin: auto;
+}
+h2{
+  font-weight: 600;
+}
+.attribution {
+    font-size: 7rem;
+}
+.img1{
+    float: right;
+    height: 55px;
+    width: 55px;
+    margin-right: 4%;
+}
+p{
+    margin: auto;
+    margin-bottom: 1em;
+    font-weight: 200;
+    font-size: 12px;
+    width: 90%
+    
+}
+.supervisor{
+    border-top: solid;
+    border-color:hsl(180, 62%, 55%);
+    box-shadow: 0px 5px 10px -2px hsl(229, 6%, 66%);
+    margin: 2% auto;
+    width: 20%;
+    height: 180px;
+    background-color: white;
+    position: absolute;
+    left :17%;
+    top: 326px; 
+}
+
+.team-builder{
+    border-top: solid;
+    border-color:hsl(0, 78%, 62%);
+    box-shadow: 0px 5px 10px -2px hsl(229, 6%, 66%);
+    margin: 2% auto;
+    width: 20%;
+    height: 180px;
+    background-color: white;
+
+}
+
+.karma{
+    border-top: solid;
+    border-color:hsl(34, 97%, 64%);
+    box-shadow: 0px 5px 10px -2px hsl(229, 6%, 66%);
+    margin: 2% auto; 
+    width: 20%;
+    height: 180px;
+    background-color: white;
+}
+
+.calc{
+    border-top: solid;
+    border-color: hsl(212, 86%, 64%);
+    box-shadow: 0px 5px 10px -2px hsl(229, 6%, 66%);
+    margin: 2%  auto;
+    width: 20%;
+    height: 180px;
+    background-color: white;
+    position: absolute;
+    right :17%;
+    top: 326px; 
+}
+
+@media (max-width: 900px) {
+	.col-md-12{
+	position: static;
+	text-align: center;
+    width: 50%;
+  }
+	h4{
+		width: 80%;
+	}
+	.img1{
+		width: 45px;
+		height: 45px;
+	}
+}

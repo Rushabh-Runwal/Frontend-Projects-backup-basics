@@ -1,0 +1,182 @@
+body{
+    font-family: 'Montserrat', sans-serif; 
+}
+/*..............Sections.........*/
+#title{
+    background-color: #ff4c68;
+    color: #fff;
+}
+#features{
+    padding: 5% 15%;
+    background-color: white;
+    position: relative;
+    
+}
+
+#testimonials{
+    background-color: #ff4c68;
+    color: #fff;
+    text-align: center;  
+}
+
+#press{
+    background-color: #ff4c68;
+    color: #fff;
+    text-align: center;
+}
+
+#pricing{
+    padding: 100px;
+    text-align: center;
+}
+
+#cta{
+    background-color: #ff4c68;
+    color: #fff;
+    font-family: 'Montserrat', sans-serif; 
+    text-align: center;  
+}
+
+#footer{
+    background-color:#fff;
+    text-align: center;
+    padding: 5% 5% 1%;
+}
+/*..................................*/
+h1{
+    font-size: 3rem;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    line-height: 1.5;
+    color: white;
+}
+
+h3{
+    font-size: 1.5em;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+}
+
+/*......Classes......*/
+.navbar{
+    padding-bottom: 4.5rem;
+}
+.container-fluid{
+    padding: 2% 15% 7%;
+}
+
+.nav-link{
+    margin: 0 10px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    
+}
+
+.tindog{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 200;
+    font-size: 2em;
+    color: white;
+}
+
+.iphone-img{
+    position: absolute; 
+    width: 55%;
+    transform: rotate(30deg);
+    margin-left: 5%;
+}
+
+.dnl-btn{
+    margin: 5% 3% 5% 0%;
+}
+
+/*..*/
+
+.feat{
+    height: 150px;
+    text-align: center;
+    margin: 5% 0;
+}
+
+#features div p{
+    color: #8f8f8f;
+    width: 80%;
+    margin: auto;
+}
+
+.icon{
+    color: #ff4c68;
+    margin: 5%;
+}
+
+.icon:hover{
+    color: #ef8172;
+}
+
+
+/*..*/
+
+
+#testimonials h2{
+    font-family: 'Montserrat-Bold', sans-serif;
+    font-size: 2.75rem;
+    line-height: 1.5em;
+    width: 80%;
+    margin: auto;
+}
+
+#testimonials img{
+    border-radius: 50%;
+    width: 13%;
+    margin: 1% 2%;
+}
+
+.carousel-item{
+        padding: 7% 15%;
+}
+
+
+/*..*/
+
+.press-logos{
+    width: 12%;
+    margin: 20px 20px 50px;
+}
+
+/*..*/
+
+.pri-col{
+    padding: 3% 2%;
+}
+
+/*..*/
+
+#cta h3{
+font-family: 'Montserrat-Bold', sans-serif;
+font-weight: 600;
+    padding-top: 3%;
+    width: 60%;
+    margin: auto;
+    font-size: 3em;
+}
+
+/*..*/
+.icons1{
+    padding: 1%;
+    margin-bottom: 5px;
+}
+
+.icons1:hover{
+    color: #8f8f8f;
+}
+/*.. media query ..*/
+@media (max-width:1000px){
+    #title{
+        text-align: center;
+    }
+    .iphone-img{
+        position: static;
+        transform: rotate(0deg);
+        width: 50%;
+    }
+}
